@@ -8,11 +8,33 @@ import Loader from 'react-loaders'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['a', 's', 'h', 'i', 'n', 'i']
-  const jobArray = [
+  const nameArray = [
+    'a',
+    's',
+    'h',
+    'i',
+    'n',
+    'i',
+    ' ',
+    'D',
+    'a',
     'w',
-    'e',
-    'b',
+    'p',
+    'a',
+    'd',
+    'i',
+  ]
+  const jobArray = [
+    'F',
+    'u',
+    'l',
+    'l',
+    '-',
+    'S',
+    't',
+    'a',
+    'c',
+    'k',
     ' ',
     'd',
     'e',
@@ -28,10 +50,9 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
+    }, 5000)
     return () => clearTimeout(timer)
   }, [])
-  
 
   return (
     <>
@@ -53,7 +74,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={29}
             />
           </h1>
           <h2>Froentend Developer / JavaScript Expert</h2>
@@ -63,7 +84,7 @@ const Home = () => {
         </div>
         <Logo />
       </div>
-      <Loader type='pacman'/>
+      <Loader type="pacman" />
     </>
   )
 }

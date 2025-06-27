@@ -2,18 +2,26 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faCss3,faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import {
+  faAngular,
+  faBitcoin,
+  faGithub,
+  faJava,
+  faNode,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+
 const About = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
-     useEffect(() => {
-        const timer = setTimeout(() => {
-          setLetterClass('text-animate-hover')
-        }, 3000)
-    
-        // Return a cleanup function to clear the timer
-        return () => clearTimeout(timer)
-      }, [])
+  const [letterClass, setLetterClass] = useState('text-animate')
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 3000)
+
+    // Return a cleanup function to clear the timer
+    return () => clearTimeout(timer)
+  }, [])
   return (
     <>
       <div className="container about-page">
@@ -47,24 +55,24 @@ const About = () => {
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faJava} color="#8a0505" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faBitcoin} color="#CC2927" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faGithub} color="#512BD4" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faNode} color="#339933" />
             </div>
           </div>
         </div>
       </div>
-      <Loader type='pacman'/>
+      <Loader type="pacman" />
     </>
   )
 }
