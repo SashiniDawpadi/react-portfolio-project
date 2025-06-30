@@ -4,7 +4,7 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faAngular,
-  faBitcoin,
+  faEthereum,
   faGithub,
   faJava,
   faNode,
@@ -58,7 +58,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJava} color="#8a0505" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faBitcoin} color="#CC2927" />
+              <FontAwesomeIcon icon={faEthereum} color="#5a5454" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />

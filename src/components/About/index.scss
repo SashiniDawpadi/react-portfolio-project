@@ -8,9 +8,6 @@
   right: 0;
   overflow: hidden;
 }
-h1{
-  color: #008d4b;
-}
 
 .cubespinner {
   animation-name: spincube;
@@ -75,4 +72,9 @@ h1{
   83% {
     transform: rotateY(90deg) rotateZ(90deg);
   }
+}
+
+
+p{
+  font-size: 12px;
 }
