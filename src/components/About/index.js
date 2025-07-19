@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import CV from '../../assets/images/Sashini_Dawpadi_CV.pdf'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -47,6 +48,9 @@ const About = () => {
             person, a sports fantastic, photography enthusiastic, and
             tech-obsessed!!!
           </p>
+          <a href={CV} download target="_blank" rel="noopener noreferrer">
+            <button className="flat-button"> DOWNLOAD MY CV</button>
+          </a>
         </div>
 
         <div className="stage-cube-cont">
