@@ -2,14 +2,17 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import project1 from '../../assets/images/project-1.jpg'
-import project2 from '../../assets/images/project-2.jpg'
-import project3 from '../../assets/images/project-3.jpg'
-import project4 from '../../assets/images/project-4.jpg'
-import project5 from '../../assets/images/project-5.jpg'
-import project6 from '../../assets/images/project-6.jpg'
-import project7 from '../../assets/images/project-7.jpg'
-import project8 from '../../assets/images/project-8.jpg'
+import {
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
+  project7,
+  project8,
+} from './imports'
+import Project from '../Project'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,15 +35,61 @@ const Projects = () => {
             />
           </h1>
         </div>
-        <div className="projects-img">
-          <img src={project1} alt="projects1" />
-          <img src={project2} alt="projects2" />
-          <img src={project3} alt="projects3" />
-          <img src={project4} alt="projects4" />
-          <img src={project5} alt="projects5" />
-          <img src={project6} alt="projects6" />
-          <img src={project7} alt="projects7" />
-          <img src={project8} alt="projects8" />
+
+        <div className="work-list">
+          <Project
+            imgUrl={project1}
+            title={'Trading Platform'}
+            description={
+              'Polygon, Solidity, Python, OpenAI, NodeJS'
+            }
+          />
+          <Project
+            imgUrl={project2}
+            title={'Portfolio Project'}
+            description={'wefheuehbi fefienvvrn'}
+          />
+          <Project
+            imgUrl={project3}
+            title={'Weather Reporter App'}
+            description={
+              'React, Vercel'
+            }
+          />
+
+          <Project
+            imgUrl={project4}
+            title={'GPT-3 App'}
+            description={
+              'React, Vercel'
+            }
+          />
+          <Project
+            imgUrl={project5}
+            title={'Microservices Project'}
+            description={'wefheuehbi fefienvvrn'}
+          />
+          <Project
+            imgUrl={project6}
+            title={'Todo App'}
+            description={
+              'Fast API, React, MongoDB'
+            }
+          />
+          <Project
+            imgUrl={project7}
+            title={' WebPortal for the Career Guidance Unit '}
+            description={
+              'Angular,NodeJS, MySQL, AWS'
+            }
+          />
+          <Project
+            imgUrl={project8}
+            title={'COVID-19 Tracking System'}
+            description={
+              'PHP, HTML, CSS'
+            }
+          />
         </div>
       </div>
       <Loader type="pacman" />
