@@ -2,9 +2,8 @@ import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faEye, faHome, faSnowflake,faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faMedium } from '@fortawesome/free-brands-svg-icons/faMedium'
+import { faCode, faEnvelope, faEye, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -31,7 +30,7 @@ const Sidebar = () => (
         className="tech-link"
         to="/technologies"
       >
-        <FontAwesomeIcon icon={faSnowflake} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
       </NavLink>
       <br/>
       <NavLink

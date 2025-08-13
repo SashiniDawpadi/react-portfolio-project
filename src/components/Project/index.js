@@ -7,7 +7,6 @@ const Project = ({ imgUrl, title, description }) => {
       <div className="layer">
         <h3>{title}</h3>
         <p>
-          <b>Technologies:</b>
           {description}
         </p>
       </div>

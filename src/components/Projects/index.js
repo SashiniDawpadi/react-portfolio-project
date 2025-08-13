@@ -41,7 +41,7 @@ const Projects = () => {
             imgUrl={project1}
             title={'Trading Platform'}
             description={
-              'Polygon, Solidity, Python, OpenAI, NodeJS'
+              'Trading Platform which has imporoved the efficiency & security using Blockchain, ML & NLP'
             }
           />
           <Project
@@ -53,7 +53,7 @@ const Projects = () => {
             imgUrl={project3}
             title={'Weather Reporter App'}
             description={
-              'React, Vercel'
+              'Real time weather reporing app for selected Sri Lankan towns.'
             }
           />
 
