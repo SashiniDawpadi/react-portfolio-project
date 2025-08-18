@@ -3,8 +3,8 @@ import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
 import Loader from 'react-loaders'
+import myImg from '../../assets/images/myImg.jpg'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -82,7 +82,7 @@ const Home = () => {
             CONTACT ME{' '}
           </Link>
         </div>
-        <Logo />
+        <img className="myImg" src={myImg} alt="myImg" />
       </div>
       <Loader type="pacman" />
     </>

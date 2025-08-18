@@ -73,10 +73,10 @@ const Technologies = () => {
               <h2>Frameworks</h2>
               <div className="tech-logos">
                 <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-                <FontAwesomeIcon icon={faNode} color="#339933" />
-                <img src={netCore} alt="NETCore" />
-                <img src={spring} alt="Spring" />
                 <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                <img src={netCore} alt="NETCore" />
+                <FontAwesomeIcon icon={faNode} color="#339933" />
+                <img src={spring} alt="Spring" />
                 <img src={fastAPI} alt="fastAPI" />
               </div>
             </div>
@@ -85,8 +85,8 @@ const Technologies = () => {
               <div className="tech-logos">
                 <img src={Mongo} alt="Mongo" />
                 <img src={MSSQL} alt="MSSQL" />
-                <img src={selenium} alt="Selenium" />
                 <img src={polygon} alt="polygon" />
+                <img src={selenium} alt="Selenium" />
                 <FontAwesomeIcon icon={faDocker} color="#049cec" />
                 <FontAwesomeIcon icon={faAws} color="#f06529" />
               </div>

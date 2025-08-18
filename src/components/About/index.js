@@ -5,11 +5,11 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faAngular,
-  faEthereum,
   faGithub,
   faJava,
   faNode,
   faReact,
+  faSass,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
@@ -35,7 +35,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
+            I'm very ambitious full-stack developer looking for a role in
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
@@ -44,8 +44,8 @@ const About = () => {
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, a sports fantastic, photography enthusiastic, and
+            If I need to define myself in one sentence that would be a friendly
+            person, a problem solver, photography enthusiastic, and
             tech-obsessed!!!
           </p>
           <a href={CV} download target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJava} color="#8a0505" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faEthereum} color="#5a5454" />
+              <FontAwesomeIcon icon={faSass} color="#ff00c8ff" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />

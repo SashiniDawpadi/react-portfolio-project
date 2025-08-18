@@ -2,7 +2,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 15px;
-  color: rgb(215, 250, 217);
+  color: #fff;
 }
 
 .tech-logos {
@@ -12,8 +12,21 @@
   grid-template-columns: repeat((8, 1fr));
   grid-gap: 50px;
 
-  img{
+  img {
     height: 60px;
     width: auto;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+  .tech-logos {
+    font-size: 45px;
+
+    img {
+      height: 45px;
+      width: auto;
+    }
+    
   }
 }

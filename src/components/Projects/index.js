@@ -47,7 +47,9 @@ const Projects = () => {
           <Project
             imgUrl={project2}
             title={'Portfolio Project'}
-            description={'wefheuehbi fefienvvrn'}
+            description={
+              ' A personal portfolio website which showcases projects, skills, and professional experiences.'
+            }
           />
           <Project
             imgUrl={project3}
@@ -61,33 +63,33 @@ const Projects = () => {
             imgUrl={project4}
             title={'GPT-3 App'}
             description={
-              'React, Vercel'
+              'A web application which enhances the impact of GPT-3 on technology.'
             }
           />
           <Project
             imgUrl={project5}
-            title={'Microservices Project'}
-            description={'wefheuehbi fefienvvrn'}
+            title={'Play Economy system'}
+            description={
+              'A full-stack application which is built using React and .NET core microservices architecture.'
+            }
           />
           <Project
             imgUrl={project6}
             title={'Todo App'}
-            description={
-              'Fast API, React, MongoDB'
-            }
+            description={'A simple CRUD app using FARM stack.'}
           />
           <Project
             imgUrl={project7}
-            title={' WebPortal for the Career Guidance Unit '}
+            title={' WebPortal for the CGU '}
             description={
-              'Angular,NodeJS, MySQL, AWS'
+              'A comprehensive web application for the CGU, increasing student engagement.'
             }
           />
           <Project
             imgUrl={project8}
             title={'COVID-19 Tracking System'}
             description={
-              'PHP, HTML, CSS'
+              'A tracking system to monitor pre-diagnosis movements of COVID-19 patients, enhancing early detection.'
             }
           />
         </div>
