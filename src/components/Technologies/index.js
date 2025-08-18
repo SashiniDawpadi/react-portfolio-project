@@ -76,7 +76,7 @@ const Technologies = () => {
                 <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
                 <img src={netCore} alt="NETCore" />
                 <FontAwesomeIcon icon={faNode} color="#339933" />
-                <img src={spring} alt="Spring" />
+                <img src={spring} alt="spring" />
                 <img src={fastAPI} alt="fastAPI" />
               </div>
             </div>
