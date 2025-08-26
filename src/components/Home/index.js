@@ -82,7 +82,9 @@ const Home = () => {
             CONTACT ME{' '}
           </Link>
         </div>
+        <div>
         <img className="myImg" src={myImg} alt="myImg" />
+        </div>
       </div>
       <Loader type="pacman" />
     </>

@@ -16,8 +16,8 @@ import {
   selenium,
   python,
   java,
-  MSSQL,
-  Mongo,
+  mssql,
+  mongo,
   cLang,
   fastAPI,
   polygon,
@@ -83,8 +83,8 @@ const Technologies = () => {
             <div className="sub-heading">
               <h2>Others</h2>
               <div className="tech-logos">
-                <img src={Mongo} alt="Mongo" />
-                <img src={MSSQL} alt="MSSQL" />
+                <img src={mongo} alt="Mongo" />
+                <img src={mssql} alt="MSSQL" />
                 <img src={polygon} alt="polygon" />
                 <img src={selenium} alt="Selenium" />
                 <FontAwesomeIcon icon={faDocker} color="#049cec" />
