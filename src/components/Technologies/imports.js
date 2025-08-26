@@ -1,6 +1,6 @@
 import netCore from '../../assets/images/netCore.png'
 import cSharp from '../../assets/images/cSharp.png'
-import spring from '../../assets/images/spring.png'
+import spring from '../../assets/images/Spring.png'
 import selenium from '../../assets/images/selenium.png'
 import python from '../../assets/images/python.png'
 import java from '../../assets/images/Java.png'
